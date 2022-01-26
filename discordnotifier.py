@@ -9,6 +9,7 @@ from dotenv import dotenv_values
 from requests import get
 
 system("cls")
+windll.kernel32.SetConsoleTitleW('Discord Notifier | by NAZAVOD')
 print('Telegram Channel - https://t.me/n4z4v0d\n')
 
 config = dotenv_values(".env")
